@@ -8,7 +8,11 @@ eureka:
   server:
     renewalPercentThreshold: 0.49
 
-logging.level:
-  com.netflix:
-    eureka: OFF
-    discovery: OFF
+logging:
+  level:
+    com.netflix:
+      eureka: OFF
+      discovery: OFF
+  file:
+    max-size: 1MB
+    max-history: 10
