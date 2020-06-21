@@ -1,9 +1,12 @@
 server:
   port: 8000
 
-eureka.client:
-  register-with-eureka: false
-  fetch-registry: false
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    renewalPercentThreshold: 0.49
 
 logging.level:
   com.netflix:
