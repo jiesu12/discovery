@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>jiesu</groupId>
 	<artifactId>discovery</artifactId>
-	<version>1.3.0</version>
+	<version>1.4.0</version>
 	<name>discovery</name>
 	<description>Discovery Service</description>
 
