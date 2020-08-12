@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 8761
 
 eureka:
   client:
@@ -8,6 +8,6 @@ eureka:
   server:
     renewalPercentThreshold: 0.49
 
-# Somehow logging properties don't work, so have to use logback-spring.xml.
-# This property is used by logback-spring.xml
-logging.file: /home/jie/project/discovery/discovery.log
+logging:
+  file:
+    name: /tmp/discovery.log
